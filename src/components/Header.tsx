@@ -26,7 +26,7 @@ const Header = () => {
           <NavButton icon={File} href="/tickets" label="Tickets" />
           <NavButton icon={UsersRound} href="/customers" label="Customers" />
           <ModeToggle />
-          <Button variant='ghost' title="Logout" size='icon' className='rounded-full' asChild><LogoutLink><LogOut/></LogoutLink></Button>
+          <Button variant='ghost' title="Logout" size='icon' className='rounded-full' asChild><LogoutLink ><LogOut/></LogoutLink></Button>
         </div>
       </div>
     </header>
